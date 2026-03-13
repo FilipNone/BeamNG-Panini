@@ -1,0 +1,12 @@
+{
+  "name": "Panini",
+  "version": "1.1.0",
+  "description": "Panini projection post-effect for BeamNG Drive, ported from Unity URP",
+  "author": "FilipNone",
+  "type": "extension",
+  "scripts": [
+    "scripts/panini/modScript.lua"
+  ],
+  "dependencies": [],
+  "supportedGameVersions": ["0.38"]
+}

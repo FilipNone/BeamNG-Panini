@@ -1,8 +1,5 @@
-//-----------------------------------------------------------------------------
-// paniniV.hlsl — standard full-screen-quad vertex shader
-// No Unity macros, no DX-specific intrinsics.
-// Cross-platform HLSL (SM 3.0) — transpiles cleanly to SPIR-V under Vulkan.
-//-----------------------------------------------------------------------------
+// paniniV.hlsl — standard full-screen-quad vertex shader (passthrough)
+// SM 3.0 — no Unity/DX-specific intrinsics.
 
 struct VertIn
 {
@@ -12,8 +9,8 @@ struct VertIn
 
 struct VertOut
 {
-    float4 hpos     : POSITION;
-    float2 uv       : TEXCOORD0;
+    float4 hpos : POSITION;
+    float2 uv   : TEXCOORD0;
 };
 
 VertOut main(VertIn IN)
